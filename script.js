@@ -5,6 +5,6 @@ body.addEventListener("mousemove", function (mouse) {
   console.log(mouse.x);
   console.log(mouse.y);
 
-  box.style.top = `${mouse.y}px`;
+  box.style.top = `${mouse.y -20}px`;
   box.style.left = `${mouse.x}px`;
 });
