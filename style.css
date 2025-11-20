@@ -15,16 +15,23 @@ color: white;
 main{
 width:100%;
 height:100%;
-position:relative;
+}
+.grid{
+    width:100%;
+    height:100%;
+    display:grid;
+    grid-template-columns: repeat(100 , 1fr);
+    grid-template-rows: repeat(50 , 1fr);
 
-
+    perspective: 1000px;
+    /* transform: rotateY(30deg) rotateX(-50deg) scale(1.5); */
+    background: black;
+    /* gap:1px; */
 }
 .box{
-    width:20px;
-    height:20px;
-    background: red;
+    background: black;
     border-radius:50%;
-    position:absolute;
-    transition: all  .12s;
-    /* transition-delay: 0.001s; */
-    }
+/* border:2px solid green; */
+
+}
+
